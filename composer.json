@@ -1,0 +1,19 @@
+{
+    "name": "krizon/ab-lincoln-bundle",
+    "description": "Integrating ABLincoln (PlanOut PHP port) in your Symfony2 projects",
+    "require": {
+        "vimeo/ablincoln": "dev-master",
+        "symfony/symfony": "2.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristian Zondervan",
+            "email": "kristian.zondervan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Krizon\\Bundle\\ABLincolnBundle\\": "" }
+    },
+    "minimum-stability": "dev"
+}
